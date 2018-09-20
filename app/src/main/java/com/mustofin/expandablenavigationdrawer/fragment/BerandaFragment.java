@@ -31,7 +31,7 @@ import java.util.List;
 public class BerandaFragment extends Fragment {
     //this is the JSON Data URL
     //make sure you are using the correct ip else it will not work
-    private static final String URL_PRODUCTS = "http://ihtravel.com.kh/apps/partner.php";
+    private static final String URL_PRODUCTS = "http://ihtravel.com.kh/apps/partner.php?cat_id=2";
 
     //a list to store all the products
     List<SpaceCraft> spaceList;
@@ -49,7 +49,6 @@ public class BerandaFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater,  ViewGroup container,  Bundle savedInstanceState) {
 
         View rootView=inflater.inflate(R.layout.beranda_fragment,null);
-
         //REFERENCE
         recyclerView1= (RecyclerView) rootView.findViewById(R.id.beranda_rv);
         //LAYOUT MANAGER

@@ -81,7 +81,7 @@ public class NavMenuAdapter extends ExpandableRecyclerViewAdapter<TitleViewHolde
         final TitleMenu menu = (TitleMenu) group;
 
         if(selectedItemParent.equals(menu.getTitle()))
-            holder.itemView.setBackgroundColor(ContextCompat.getColor(context, R.color.colorAccent));
+            holder.itemView.setBackgroundColor(ContextCompat.getColor(context, R.color.colorGray));
         else
             holder.itemView.setBackgroundColor(Color.WHITE);
 

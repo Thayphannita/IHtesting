@@ -20,8 +20,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.RecyclerVH>{
 
     Context context;
     private List<SpaceCraft> spaceCraftListc;
-    //String[] spacecrafts;
-
 
     public MyAdapter(Context context, List<SpaceCraft> spaceCraftListc) {
         this.context = context;
@@ -57,7 +55,10 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.RecyclerVH>{
 
     @Override
     public int getItemCount() {
-        return spaceCraftListc.size();
+        int l = 0;
+        if (spaceCraftListc != null ){
+        l = spaceCraftListc.size();}
+        return l;
     }
 
 

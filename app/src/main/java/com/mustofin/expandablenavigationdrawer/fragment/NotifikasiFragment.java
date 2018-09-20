@@ -30,7 +30,7 @@ public class NotifikasiFragment extends Fragment {
 
     //this is the JSON Data URL
     //make sure you are using the correct ip else it will not work
-    private static final String URL_PRODUCTS = "http://ihtravel.com.kh/apps/partner.php";
+    private static final String URL_PRODUCTS = "http://ihtravel.com.kh/apps/partner.php?cat_id=1";
 
     //a list to store all the products
     List<SpaceCraft> spaceList2;

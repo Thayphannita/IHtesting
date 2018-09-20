@@ -26,7 +26,7 @@
             android:layout_height="match_parent">
 
             <LinearLayout
-                android:layout_above="@+id/main_nav_footer"
+
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
@@ -42,16 +42,6 @@
             </LinearLayout>
 
 
-            <TextView
-                android:id="@+id/main_nav_footer"
-                android:padding="5dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/copyright"
-                android:gravity="center"
-                android:layout_alignParentBottom="true"
-                android:textColor="@color/colorGrayLight"
-                android:layout_gravity="bottom"/>
         </RelativeLayout>
 
     </android.support.design.widget.NavigationView>

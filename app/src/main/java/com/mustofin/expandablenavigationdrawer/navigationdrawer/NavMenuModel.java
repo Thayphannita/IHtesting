@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import android.support.v4.app.Fragment;
 
+import com.mustofin.expandablenavigationdrawer.fragment.BeautyFragment;
+
 /**
  * Created by miki on 7/8/17.
  */
@@ -36,5 +38,6 @@ public class NavMenuModel {
             this.subMenuTitle = subMenuTitle;
             this.fragment = fragment;
         }
+
     }
 }

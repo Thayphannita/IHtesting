@@ -35,10 +35,8 @@ public class NotifikasiFragment extends Fragment {
     //a list to store all the products
     List<SpaceCraft> spaceList2;
 
-
+    //Recycler view
     private RecyclerView recyclerView2;
-
-//    private static String[] spacecrafts={"Columbia","Apollo 15","Apollo 17","Chandra","Opportunity","Curiosity"};
 
     public static NotifikasiFragment newInstance()
     {
